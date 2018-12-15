@@ -11,28 +11,10 @@ source ENV/bin/activate
 Требуется pip с версией старше 9.1  
 [установка pip](https://pip.pypa.io/en/stable/installing/#)
 
-Требуется установить Django
+Перед запуском
 
 ```bash
-pip install django
-```
-
-Еще django rest framework
-
-```bash
-pip install django-rest-framework
-```
-
-а также django cors headers
-
-```bash
-pip install django-cors-headers
-```
-
-и Pillow
-
-```bash
-pip install Pillow
+pip install -r requirements.txt
 ```
 
 ## Запуск сервера
